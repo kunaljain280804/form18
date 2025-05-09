@@ -1,0 +1,29 @@
+/* Reset margin and set base styles */
+body, html {
+  height: 100%;
+  margin: 50px;
+  padding: 0;
+  background: #D3D3D3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Container for the form */
+.form-container {
+  width: 500%;
+  height: 80vh;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+/* Error message styling */
+.error-msg {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
